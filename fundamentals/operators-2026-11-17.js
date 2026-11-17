@@ -30,17 +30,13 @@ console.log(!!"0", !!""); // true, false
 
 console.log(console.log(1) || 2 || console.log(3)); // 1,2,3
 
-function checkAge(age) {
-  if (age >= 14 && age <= 90) return true;
+function isOutOfRange(age) {
+  return age < 14 || age > 90;
 
-  return false;
-
-  //  if(!(age >= 14) && age <= 90) return true;
-
-  // return false
+  //   return !(age >= 14 && age <= 90)
 }
 
-checkAge(87);
+console.log(isOutOfRange(85));
 
 console.log(0 || 10); // 10
 console.log(0 ?? 10); // 0
