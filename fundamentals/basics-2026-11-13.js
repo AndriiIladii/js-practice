@@ -12,7 +12,7 @@ console.log(user.name);
 function parsePrice(price) {
   let priceToNumber = Number(price);
 
-  if (Number.isNaN(textToNumber)) {
+  if (Number.isNaN(priceToNumber)) {
     console.log("Введите число");
     return null;
   }
