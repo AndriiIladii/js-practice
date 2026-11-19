@@ -1,0 +1,22 @@
+//https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript
+
+function basicOp(operation, value1, value2) {
+  switch (operation) {
+    case "+":
+      return value1 + value2;
+      break;
+    case "-":
+      return value1 - value2;
+      break;
+    case "*":
+      return value1 * value2;
+      break;
+    case "/":
+      return value1 / value2;
+      break;
+    default:
+      return 0;
+  }
+}
+
+// Learned how to use basic mathematical operations
